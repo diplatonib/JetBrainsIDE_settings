@@ -1,0 +1,11 @@
+<keymap version="1" name="Sublime Text copy" parent="Sublime Text">
+  <action id="EditorScrollBottom">
+    <keyboard-shortcut first-keystroke="shift ctrl alt end" />
+  </action>
+  <action id="EditorScrollTop">
+    <keyboard-shortcut first-keystroke="shift ctrl alt home" />
+  </action>
+  <action id="SurroundWithEmmet">
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
+</keymap>

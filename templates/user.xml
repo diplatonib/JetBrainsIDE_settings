@@ -1,0 +1,20 @@
+<templateSet group="user">
+  <template name="wd" value="## $TODAY$" description="Report date" toReformat="true" toShortenFQNames="true">
+    <variable name="TODAY" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="ar" value="&lt;p&gt;+ $END$&lt;br&gt;&#10;&lt;a href=&quot;$CLIPBOARD$&quot; title=&quot;regular&quot; style=&quot;color: #000; background-color: #a3abdb;&quot;&gt;$TASKNAME$&lt;/a&gt;&lt;/p&gt;" shortcut="TAB" description="Regular task snippet" toReformat="false" toShortenFQNames="true">
+    <variable name="CLIPBOARD" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <variable name="TASKNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="COMPLETION" value="false" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+</templateSet>

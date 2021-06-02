@@ -1,0 +1,5 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="JavaScript/Join subsequent variable declarations" />
+  </component>
+</application>

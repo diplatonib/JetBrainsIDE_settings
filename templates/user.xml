@@ -60,4 +60,17 @@
       <option name="HTML_TEXT" value="true" />
     </context>
   </template>
+  <template name="mr" value="#### Merge request:&#10;$CLIPBOARD$&#10;#### Task:" description="Merge request" toReformat="true" toShortenFQNames="true">
+    <variable name="CLIPBOARD" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="ar" value="&lt;p&gt;+ $END$&lt;br&gt;&#10;&lt;a href=&quot;$CLIPBOARD$&quot; title=&quot;regular&quot; style=&quot;color: #000; background-color: #a3abdb;&quot;&gt;$TEXT$&lt;/a&gt;&lt;/p&gt;" description="Regular task" toReformat="true" toShortenFQNames="true">
+    <variable name="CLIPBOARD" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
 </templateSet>

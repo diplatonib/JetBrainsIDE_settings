@@ -54,4 +54,10 @@
       <option name="Twig" value="true" />
     </context>
   </template>
+  <template name="day" value="## $DATE$&#10;&#10;$END$" description="Report date" toReformat="true" toShortenFQNames="true">
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
 </templateSet>

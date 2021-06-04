@@ -87,4 +87,11 @@
       <option name="Twig" value="true" />
     </context>
   </template>
+  <template name="rv" value="|replace_vars({&quot;$END$&quot; : $CLIPBOARD_VARIABLE$})" description="Replace vars twig filter" toReformat="true" toShortenFQNames="true">
+    <variable name="CLIPBOARD_VARIABLE" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
 </templateSet>

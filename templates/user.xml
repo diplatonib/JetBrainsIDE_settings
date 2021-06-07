@@ -94,4 +94,40 @@
       <option name="Twig" value="true" />
     </context>
   </template>
+  <template name="tco" value="{{ settings.cloud_name }}" description="TrueConf Online as twig variable" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="tce" value="{{ settings.enterprise_name }}" description="TrueConf Enterprise as twig variable" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="tcm" value="{{ settings.mcu_name }}" description="TrueConf MCU as twig variable" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="tctr" value="{{ settings.tracker_name }}" description="TrueConf Tracker as twig variable" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="tcw" value="{{ settings.weathervane_name }}" description="TrueConf Weathervane as twig variable" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="tck" value="{{ settings.kiosk_name }}" description="TrueConf Kiosk as twig variable" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
 </templateSet>

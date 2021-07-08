@@ -19,7 +19,7 @@
     <mask>*.php</mask>
     <mask>*.css</mask>
     <mask>*.conf</mask>
-    <mask>*.sitemap</mask>
     <mask>*.twig</mask>
+    <mask>*.sitemap</mask>
   </component>
 </application>

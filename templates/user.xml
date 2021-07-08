@@ -124,4 +124,10 @@
       <option name="Twig" value="true" />
     </context>
   </template>
+  <template name="cvn" value="{{ compared_vendor_name }}" description="{{ compared_vendor_name }} variable for landings" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
 </templateSet>

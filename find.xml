@@ -7,6 +7,7 @@
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.sitemap" />
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.php4</mask>
@@ -19,7 +20,7 @@
     <mask>*.php</mask>
     <mask>*.conf</mask>
     <mask>*.twig</mask>
-    <mask>*.sitemap</mask>
     <mask>*.css</mask>
+    <mask>*.sitemap</mask>
   </component>
 </application>

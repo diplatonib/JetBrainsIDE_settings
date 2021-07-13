@@ -130,4 +130,10 @@
       <option name="Twig" value="true" />
     </context>
   </template>
+  <template name="tcs" value="{{ settings.server_name }}" description="TrueConf Server as twig variable" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
 </templateSet>

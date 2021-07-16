@@ -15,7 +15,7 @@
     <mask>*.php</mask>
     <mask>*.conf</mask>
     <mask>*.sitemap</mask>
-    <mask>*.css</mask>
     <mask>*.twig</mask>
+    <mask>*.css</mask>
   </component>
 </application>

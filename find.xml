@@ -13,9 +13,11 @@
     <mask>*.module</mask>
     <mask>*.inc</mask>
     <mask>*.conf</mask>
-    <mask>*.twig</mask>
-    <mask>*.css</mask>
+    <mask>*.sitemap``</mask>
     <mask>*.sitemap</mask>
+    <mask>*.twig</mask>
+    <mask>*.ini</mask>
     <mask>*.php</mask>
+    <mask>*.css</mask>
   </component>
 </application>

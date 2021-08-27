@@ -2,9 +2,11 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="localRegularExpressions" value="true" />
     <option name="showResultsInSeparateView" value="true" />
     <option name="wholeWordsOnly" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
+    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.html</mask>
@@ -19,10 +21,10 @@
     <mask>*.conf</mask>
     <mask>*.sitemap``</mask>
     <mask>*.sitemap</mask>
-    <mask>*.js</mask>
     <mask>*.php</mask>
     <mask>*.ini</mask>
     <mask>*.css</mask>
     <mask>*.twig</mask>
+    <mask>*.js</mask>
   </component>
 </application>

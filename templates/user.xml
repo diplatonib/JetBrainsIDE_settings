@@ -136,4 +136,27 @@
       <option name="Twig" value="true" />
     </context>
   </template>
+  <template name="pic" value="&lt;picture&gt;&#10;    &lt;source srcset=&quot;$AVIF$&quot; type=&quot;image/avif&quot;&gt;&#10;    &lt;source srcset=&quot;$WEBP$&quot; type=&quot;image/webp&quot;&gt;&#10;    $SELECTION$&#10;&lt;/picture&gt;" description="Picture snippet for avif/webp optimizerd images" toReformat="true" toShortenFQNames="true">
+    <variable name="AVIF" expression="regularExpression(clipboard(), &quot;.ipg$|.jpg$|.png$&quot;, &quot;.avif&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="WEBP" expression="regularExpression(clipboard(), &quot;.ipg$|.jpg$|.png$&quot;, &quot;.webp&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTML_TEXT" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PHP" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
 </templateSet>

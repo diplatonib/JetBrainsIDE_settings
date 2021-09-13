@@ -18,11 +18,11 @@
     <mask>*.inc</mask>
     <mask>*.conf</mask>
     <mask>*.sitemap``</mask>
-    <mask>*.sitemap</mask>
     <mask>*.php</mask>
     <mask>*.js</mask>
     <mask>*.css</mask>
     <mask>*.ini</mask>
     <mask>*.twig</mask>
+    <mask>*.sitemap</mask>
   </component>
 </application>

@@ -21,9 +21,9 @@
     <mask>*.sitemap``</mask>
     <mask>*.js</mask>
     <mask>*.php</mask>
-    <mask>*.sitemap</mask>
     <mask>*.ini</mask>
     <mask>*.css</mask>
+    <mask>*.sitemap</mask>
     <mask>*.twig</mask>
   </component>
 </application>

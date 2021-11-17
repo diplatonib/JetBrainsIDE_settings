@@ -182,4 +182,11 @@
       <option name="XML" value="false" />
     </context>
   </template>
+  <template name="tj" value="{%- block tail_js -%}&#10;    {{- parent() -}}&#10;    $CLIPBOARD$&#10;{%- endblock tail_js -%}" description="tile js wrapper" toReformat="true" toShortenFQNames="true">
+    <variable name="CLIPBOARD" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
 </templateSet>

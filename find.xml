@@ -23,8 +23,8 @@
     <mask>*.js</mask>
     <mask>*.php</mask>
     <mask>*.ini</mask>
-    <mask>*.sitemap</mask>
-    <mask>*.twig</mask>
     <mask>*.css</mask>
+    <mask>*.twig</mask>
+    <mask>*.sitemap</mask>
   </component>
 </application>

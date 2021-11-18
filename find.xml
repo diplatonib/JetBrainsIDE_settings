@@ -22,9 +22,9 @@
     <mask>*.sitemap``</mask>
     <mask>*.js</mask>
     <mask>*.css</mask>
-    <mask>*.twig</mask>
     <mask>*.sitemap</mask>
     <mask>*.ini</mask>
     <mask>*.php</mask>
+    <mask>*.twig</mask>
   </component>
 </application>

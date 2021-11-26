@@ -4,6 +4,7 @@
       <mapping pattern="typescript" type="AUTO_DETECTED" />
       <mapping ext="avif" type="Image" />
       <mapping pattern="Readline.js" type="PLAIN_TEXT" />
+      <mapping pattern="stylelintrc(copy)" type="PLAIN_TEXT" />
       <mapping pattern=".sassrc" type="PLAIN_TEXT" />
       <mapping ext="1" type="PLAIN_TEXT" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />

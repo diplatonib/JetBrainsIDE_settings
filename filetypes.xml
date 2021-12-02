@@ -4,6 +4,7 @@
       <mapping pattern="typescript" type="AUTO_DETECTED" />
       <mapping ext="avif" type="Image" />
       <mapping pattern="Readline.js" type="PLAIN_TEXT" />
+      <mapping pattern=".stylelint-scssrc" type="PLAIN_TEXT" />
       <mapping pattern="stylelintrc(copy)" type="PLAIN_TEXT" />
       <mapping pattern=".browserlistrc" type="PLAIN_TEXT" />
       <mapping pattern=".sassrc" type="PLAIN_TEXT" />

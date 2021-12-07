@@ -24,7 +24,7 @@
     <mask>*.twig</mask>
     <mask>*.json</mask>
     <mask>*.scss</mask>
-    <mask>*.sitemap</mask>
     <mask>*.css</mask>
+    <mask>*.sitemap</mask>
   </component>
 </application>

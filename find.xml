@@ -1,10 +1,12 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="WESTRN_CONTENT" />
-    <option name="defaultScopeName" value="WESTRN_CONTENT" />
+    <option name="customScope" value="RUSSIAN_CONTENT" />
+    <option name="defaultScopeName" value="RUSSIAN_CONTENT" />
+    <option name="regularExpressions" value="true" />
     <option name="showResultsInSeparateView" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
-    <option name="SEARCH_SCOPE" value="WESTRN_CONTENT" />
+    <option name="SEARCH_SCOPE" value="RUSSIAN_CONTENT" />
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.php4</mask>

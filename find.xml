@@ -1,9 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.sitemap" />
+    <option name="customScope" value="ui-kit.src" />
+    <option name="defaultScopeName" value="ui-kit.src" />
+    <option name="SEARCH_SCOPE" value="ui-kit.src" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>

@@ -3,7 +3,6 @@
     <option name="customScope" value="UI_KIT" />
     <option name="defaultScopeName" value="UI_KIT" />
     <option name="SEARCH_SCOPE" value="UI_KIT" />
-    <option name="FILE_MASK" value="*.css" />
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.php4</mask>

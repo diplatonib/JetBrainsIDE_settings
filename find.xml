@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>*.css</mask>
+    <option name="customScope" value="UI_KIT" />
+    <option name="defaultScopeName" value="UI_KIT" />
+    <option name="SEARCH_SCOPE" value="UI_KIT" />
+    <option name="FILE_MASK" value="*.css" />
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.php4</mask>
@@ -16,5 +16,6 @@
     <mask>*.php</mask>
     <mask>*.ini</mask>
     <mask>*.sitemap</mask>
+    <mask>*.css</mask>
   </component>
 </application>

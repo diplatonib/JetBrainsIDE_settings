@@ -2,6 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="INDEX" />
     <option name="defaultScopeName" value="INDEX" />
+    <option name="localRegularExpressions" value="true" />
+    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="INDEX" />
     <mask>*.html</mask>
     <mask>*.xml</mask>

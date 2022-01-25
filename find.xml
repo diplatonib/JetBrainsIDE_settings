@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="customScope" value="IMAGE_FILES" />
+    <option name="defaultScopeName" value="IMAGE_FILES" />
+    <option name="SEARCH_SCOPE" value="IMAGE_FILES" />
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.php4</mask>

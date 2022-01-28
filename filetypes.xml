@@ -11,6 +11,7 @@
       <mapping pattern=".browserlistrc" type="PLAIN_TEXT" />
       <mapping pattern=".sassrc" type="PLAIN_TEXT" />
       <mapping ext="1" type="PLAIN_TEXT" />
+      <mapping ext="mjml" type="XML" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
     </extensionMap>
   </component>

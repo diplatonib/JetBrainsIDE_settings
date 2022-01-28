@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="typescript" type="AUTO_DETECTED" />
       <mapping ext="avif" type="Image" />
+      <mapping pattern=".mjmlconfig" type="JSON" />
       <mapping pattern="Readline.js" type="PLAIN_TEXT" />
       <mapping pattern=".gulp-cache" type="PLAIN_TEXT" />
       <mapping pattern=".stylelint-scssrc" type="PLAIN_TEXT" />
@@ -11,8 +12,8 @@
       <mapping pattern=".browserlistrc" type="PLAIN_TEXT" />
       <mapping pattern=".sassrc" type="PLAIN_TEXT" />
       <mapping ext="1" type="PLAIN_TEXT" />
-      <mapping ext="mjml" type="XML" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <removed_mapping ext="mjml" approved="true" type="XML" />
     </extensionMap>
   </component>
 </application>

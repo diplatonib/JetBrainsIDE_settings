@@ -913,6 +913,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.mjml">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="de.timo_reymann.intellij-mjml-support" />
+              <option name="myPluginName" value="MJML Support" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.mjs">
           <value>
             <plugin>

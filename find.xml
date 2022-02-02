@@ -13,8 +13,9 @@
     <mask>*.module</mask>
     <mask>*.inc</mask>
     <mask>*.php</mask>
-    <mask>*.sitemap</mask>
-    <mask>*.ini</mask>
     <mask>*.css</mask>
+    <mask>*.sitemap</mask>
+    <mask>*.twig</mask>
+    <mask>*.ini</mask>
   </component>
 </application>

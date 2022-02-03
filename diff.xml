@@ -51,6 +51,7 @@
       <entry key="Default">
         <PlaceSettings>
           <option name="BREADCRUMBS_PLACEMENT" value="TOP" />
+          <option name="EXPAND_BY_DEFAULT" value="false" />
           <option name="IGNORE_POLICY" value="IGNORE_WHITESPACES" />
           <option name="SHOW_INDENT_LINES" value="true" />
           <option name="SHOW_WHITESPACES" value="true" />
@@ -59,6 +60,7 @@
       <entry key="Merge">
         <PlaceSettings>
           <option name="EXPAND_BY_DEFAULT" value="false" />
+          <option name="IGNORE_POLICY" value="IGNORE_WHITESPACES" />
         </PlaceSettings>
       </entry>
     </option>

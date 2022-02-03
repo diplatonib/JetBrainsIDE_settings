@@ -3,7 +3,6 @@
     <extensionMap>
       <mapping pattern="typescript" type="AUTO_DETECTED" />
       <mapping ext="avif" type="Image" />
-      <mapping pattern=".mjmlconfig" type="JSON" />
       <mapping pattern="Readline.js" type="PLAIN_TEXT" />
       <mapping pattern=".gulp-cache" type="PLAIN_TEXT" />
       <mapping pattern=".stylelint-scssrc" type="PLAIN_TEXT" />

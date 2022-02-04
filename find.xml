@@ -16,8 +16,8 @@
     <mask>*.inc</mask>
     <mask>*.php</mask>
     <mask>*.sitemap</mask>
-    <mask>*.twig</mask>
     <mask>*.ini</mask>
     <mask>*.css</mask>
+    <mask>*.twig</mask>
   </component>
 </application>

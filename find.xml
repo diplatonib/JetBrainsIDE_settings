@@ -3,7 +3,6 @@
     <option name="customScope" value="old-ui-kit" />
     <option name="defaultScopeName" value="old-ui-kit" />
     <option name="SEARCH_SCOPE" value="old-ui-kit" />
-    <option name="FILE_MASK" value="*.sitemap" />
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.php4</mask>

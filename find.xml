@@ -1,8 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="old-ui-kit" />
-    <option name="defaultScopeName" value="old-ui-kit" />
-    <option name="SEARCH_SCOPE" value="old-ui-kit" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="localRegularExpressions" value="true" />
+    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.php4</mask>
@@ -13,9 +15,10 @@
     <mask>*.module</mask>
     <mask>*.inc</mask>
     <mask>*.php</mask>
+    <mask>*.sitemap</mask>
+    <mask>*.twig</mask>
     <mask>*.ini</mask>
     <mask>*.css</mask>
-    <mask>*.twig</mask>
-    <mask>*.sitemap</mask>
+    <mask>*.ejs</mask>
   </component>
 </application>

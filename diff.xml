@@ -16,6 +16,8 @@
               <option value="com.intellij.diff.tools.dir.DirDiffTool" />
               <option value="com.intellij.database.model.diff.SchemaDiffTool" />
               <option value="com.intellij.database.diff.TableDiffTool" />
+              <option value="com.intellij.diff.tools.combined.CombinedUnifiedDiffTool" />
+              <option value="com.intellij.diff.tools.combined.CombinedSideBySideDiffTool" />
             </list>
           </option>
         </PlaceSettings>
@@ -55,6 +57,7 @@
           <option name="IGNORE_POLICY" value="IGNORE_WHITESPACES" />
           <option name="SHOW_INDENT_LINES" value="true" />
           <option name="SHOW_WHITESPACES" value="true" />
+          <option name="USE_SOFT_WRAPS" value="true" />
         </PlaceSettings>
       </entry>
       <entry key="Merge">

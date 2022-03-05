@@ -23,7 +23,7 @@
     <mask>*.css</mask>
     <mask>*.ejs</mask>
     <mask>*.ini</mask>
-    <mask>*.sitemap</mask>
     <mask>*.conf</mask>
+    <mask>*.sitemap</mask>
   </component>
 </application>

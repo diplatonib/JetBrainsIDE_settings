@@ -9,7 +9,7 @@
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.sitemap" />
+    <option name="FILE_MASK" value="*.css" />
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.php4</mask>
@@ -26,7 +26,7 @@
     <mask>*.twig</mask>
     <mask>*.js</mask>
     <mask>*.ini</mask>
-    <mask>*.css</mask>
     <mask>*.sitemap</mask>
+    <mask>*.css</mask>
   </component>
 </application>

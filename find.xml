@@ -22,9 +22,9 @@
     <mask>*.conf</mask>
     <mask>*.json</mask>
     <mask>*.js</mask>
-    <mask>*.sitemap</mask>
     <mask>*.css</mask>
     <mask>*.ini</mask>
+    <mask>*.sitemap</mask>
     <mask>*.twig</mask>
   </component>
 </application>

@@ -22,8 +22,8 @@
     <mask>*.json</mask>
     <mask>*.js</mask>
     <mask>*.css</mask>
-    <mask>*.ini</mask>
     <mask>*.twig</mask>
+    <mask>*.ini</mask>
     <mask>*.sitemap</mask>
   </component>
 </application>

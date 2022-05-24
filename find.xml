@@ -20,10 +20,10 @@
     <mask>*.ejs</mask>
     <mask>*.conf</mask>
     <mask>*.json</mask>
-    <mask>*.twig</mask>
+    <mask>*.js</mask>
+    <mask>*.ini</mask>
     <mask>*.css</mask>
     <mask>*.sitemap</mask>
-    <mask>*.ini</mask>
-    <mask>*.js</mask>
+    <mask>*.twig</mask>
   </component>
 </application>

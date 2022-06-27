@@ -23,7 +23,7 @@
     <mask>*.conf</mask>
     <mask>*.php</mask>
     <mask>*.css</mask>
-    <mask>*.sitemap</mask>
     <mask>*.ini</mask>
+    <mask>*.sitemap</mask>
   </component>
 </application>

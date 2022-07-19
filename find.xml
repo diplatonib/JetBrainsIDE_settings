@@ -1,12 +1,15 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="ui-kit" />
-    <option name="defaultScopeName" value="ui-kit" />
+    <option name="caseSensitive" value="true" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
     <option name="localRegularExpressions" value="true" />
     <option name="showResultsInSeparateView" value="true" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
-    <option name="SEARCH_SCOPE" value="ui-kit" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.json" />
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.php4</mask>
@@ -17,7 +20,6 @@
     <mask>*.module</mask>
     <mask>*.inc</mask>
     <mask>*.ejs</mask>
-    <mask>*.json</mask>
     <mask>*.js</mask>
     <mask>*.conf</mask>
     <mask>*.sitemap</mask>
@@ -25,5 +27,6 @@
     <mask>*.css</mask>
     <mask>*.php</mask>
     <mask>*.twig</mask>
+    <mask>*.json</mask>
   </component>
 </application>

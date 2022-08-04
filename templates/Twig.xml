@@ -75,7 +75,7 @@
     </context>
   </template>
   <template name="block cont" value="{% block cont %}&#10;    $CLIPBOARD$&#10;{% endblock cont %}" description="" toReformat="true" toShortenFQNames="true">
-    <variable name="CLIPBOARD" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLIPBOARD" expression="capitalizeAndUnderscore(String)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
       <option name="Twig" value="true" />

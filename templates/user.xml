@@ -209,32 +209,32 @@
       <option name="HTML_TEXT" value="true" />
     </context>
   </template>
-  <template name="ctypo" value="&lt;link rel=&quot;stylesheet&quot; href=&quot;{{ settings.server_url }}/public/css/trueconf/ui-kit/elements/ui-kit-typography.min.css&quot;&gt;" toReformat="true" toShortenFQNames="true">
+  <template name="ctypo" value="&lt;link rel=&quot;stylesheet&quot; href=&quot;{{ settings.server_url }}/public/css/trueconf/ui-kit/elements/ui-kit-typography.min.css&quot;&gt;" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="cgrid" value="&lt;link rel=&quot;stylesheet&quot; href=&quot;{{ settings.server_url }}/public/css/trueconf/ui-kit/elements/ui-kit-grid.min.css&quot;&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="cgrid" value="&lt;link rel=&quot;stylesheet&quot; href=&quot;{{ settings.server_url }}/public/css/trueconf/ui-kit/elements/ui-kit-grid.min.css&quot;&gt;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="cbtn" value="&lt;link rel=&quot;stylesheet&quot; href=&quot;{{ settings.server_url }}/public/css/trueconf/ui-kit/elements/ui-kit-buttons.min.css&quot;&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="cbtn" value="&lt;link rel=&quot;stylesheet&quot; href=&quot;{{ settings.server_url }}/public/css/trueconf/ui-kit/elements/ui-kit-buttons.min.css&quot;&gt;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="hbtna" value="&lt;a href=&quot;$CLIPBOARD$&quot; class=&quot;default-button default-button--lg default-button--orange default-button--rounded&quot;&gt;&#10;    &lt;span class=&quot;default-button__text white-text&quot;&gt;$SELECTION$&lt;/span&gt;&#10;&lt;/a&gt;" toReformat="true" toShortenFQNames="true">
+  <template name="hbtna" value="&lt;a href=&quot;$CLIPBOARD$&quot; class=&quot;default-button default-button--lg default-button--orange default-button--rounded&quot;&gt;&#10;    &lt;span class=&quot;default-button__text white-text&quot;&gt;$SELECTION$&lt;/span&gt;&#10;&lt;/a&gt;" description="" toReformat="true" toShortenFQNames="true">
     <variable name="CLIPBOARD" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="hbtnb" value="&lt;button onclick=&quot;$CLIPBOARD$&quot; class=&quot;default-button default-button--lg default-button--orange default-button--rounded&quot;&gt;&#10;    &lt;span class=&quot;default-button__text white-text&quot;&gt;$SELECTION$&lt;/span&gt;&#10;&lt;/button&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="hbtnb" value="&lt;button onclick=&quot;$CLIPBOARD$&quot; class=&quot;default-button default-button--lg default-button--orange default-button--rounded&quot;&gt;&#10;    &lt;span class=&quot;default-button__text white-text&quot;&gt;$SELECTION$&lt;/span&gt;&#10;&lt;/button&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="CLIPBOARD" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
@@ -243,20 +243,20 @@
       <option name="XML" value="true" />
     </context>
   </template>
-  <template name="ln" value="{{ site.link($CLIPBOARD$) }}" toReformat="true" toShortenFQNames="true">
+  <template name="ln" value="{{ site.link($CLIPBOARD$) }}" description="" toReformat="true" toShortenFQNames="true">
     <variable name="CLIPBOARD" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="c" value="class=&quot;$END$&quot;" toReformat="true" toShortenFQNames="true">
+  <template name="c" value="class=&quot;$END$&quot;" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="vng" value="%vendor_name" toReformat="false" toShortenFQNames="true">
+  <template name="vng" value="%vendor_name" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
@@ -315,7 +315,7 @@
       <option name="XML" value="false" />
     </context>
   </template>
-  <template name="pmt" value="&lt;p class=&quot;primary-medium-text&quot;&gt;$SELECTION$&lt;/p&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="pmt" value="&lt;p class=&quot;primary-medium-text&quot;&gt;$SELECTION$&lt;/p&gt;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />

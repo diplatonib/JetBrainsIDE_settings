@@ -54,14 +54,14 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="block js" value="{% block tail_js %}&#10;    {{ parent() }}&#10;    $CLIPBOARD$&#10;{% endblock tail_js %}" toReformat="true" toShortenFQNames="true">
+  <template name="block js" value="{% block tail_js %}&#10;    {{ parent() }}&#10;    $CLIPBOARD$&#10;{% endblock tail_js %}" description="" toReformat="true" toShortenFQNames="true">
     <variable name="CLIPBOARD" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="parent" value="{{ parent() }}" shortcut="ENTER" toReformat="true" toShortenFQNames="true">
+  <template name="parent" value="{{ parent() }}" shortcut="ENTER" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
       <option name="Twig" value="true" />

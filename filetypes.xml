@@ -6,8 +6,10 @@
       <mapping ext="avif" type="Image" />
       <mapping pattern="Readline.js" type="PLAIN_TEXT" />
       <mapping pattern=".gulp-cache" type="PLAIN_TEXT" />
+      <mapping pattern=".env.production" type="PLAIN_TEXT" />
       <mapping pattern=".stylelint-scssrc" type="PLAIN_TEXT" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
+      <mapping pattern=".env.staging" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="stylelintrc(copy)" type="PLAIN_TEXT" />
       <mapping pattern=".browserlistrc" type="PLAIN_TEXT" />

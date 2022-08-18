@@ -17,11 +17,11 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="sln" value="{{ site.link($CLIPBOARD_ID$$END$) }}" description="TC_WEB sitemap link by ID" toReformat="true" toShortenFQNames="true">
-    <variable name="CLIPBOARD_ID" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
+  <template name="sln" value="{{ site.link($CLIPBOARD$) }}" description="TC_WEB sitemap link by ID" toReformat="true" toShortenFQNames="true">
+    <variable name="CLIPBOARD" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="HTML" value="true" />
-      <option name="HTML_TEXT" value="false" />
+      <option name="Twig" value="true" />
     </context>
   </template>
   <template name="tce" value="{{ settings.enterprise_name }}" description="TrueConf Enterprise as twig variable" toReformat="true" toShortenFQNames="true">
@@ -66,7 +66,7 @@
       <option name="HTML_TEXT" value="true" />
     </context>
   </template>
-  <template name="ar" value="&lt;p&gt;+ $END$&lt;br&gt;&#10;&lt;a href=&quot;$CLIPBOARD$&quot; title=&quot;regular&quot; style=&quot;color: #000; background-color: #a3abdb;&quot;&gt;$TEXT$&lt;/a&gt;&lt;/p&gt;" description="Regular task" toReformat="false" toShortenFQNames="true">
+  <template name="ar" value="&lt;p&gt;&#10;    + $END$&lt;br&gt;&#10;    &lt;a href=&quot;$CLIPBOARD$&quot; title=&quot;regular&quot; style=&quot;color: #000; background-color: #a3abdb;&quot;&gt;$TEXT$&lt;/a&gt;&#10;&lt;/p&gt;" description="Regular task" toReformat="false" toShortenFQNames="true">
     <variable name="CLIPBOARD" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -80,8 +80,8 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="gt" value="{{ site._(&quot;$CLIPBOARD_TEXT$&quot;) }}" description="Gittext wrapper short" toReformat="true" toShortenFQNames="true">
-    <variable name="CLIPBOARD_TEXT" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+  <template name="gt" value="{{ site._(&quot;$CLIPBOARD$&quot;) }}" description="Gittext wrapper short" toReformat="true" toShortenFQNames="true">
+    <variable name="CLIPBOARD" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
       <option name="Twig" value="true" />
@@ -90,8 +90,21 @@
   <template name="rv" value="|replace_vars({&quot;$END$&quot; : $CLIPBOARD_VARIABLE$})" description="Replace vars twig filter" toReformat="true" toShortenFQNames="true">
     <variable name="CLIPBOARD_VARIABLE" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML" value="true" />
-      <option name="Twig" value="true" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JADE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="tco" value="{{ settings.cloud_name }}" description="TrueConf Online as twig variable" toReformat="true" toShortenFQNames="true">
@@ -189,11 +202,137 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="ai" value="&lt;p&gt;+ $END$&lt;br&gt;&#10;&lt;a href=&quot;$CLIPBOARD$&quot; title=&quot;important&quot; style=&quot;color: #000; background-color: #dba3a3;&quot;&gt;$TEXT$&lt;/a&gt;&lt;/p&gt;" description="Important task" toReformat="false" toShortenFQNames="true">
+  <template name="ai" value="&lt;p&gt;&#10;    + $END$&lt;br&gt;&#10;    &lt;a href=&quot;$CLIPBOARD$&quot; title=&quot;important&quot; style=&quot;color: #000; background-color: #dba3a3;&quot;&gt;$TEXT$&lt;/a&gt;&#10;&lt;/p&gt;" description="Important task" toReformat="false" toShortenFQNames="true">
     <variable name="CLIPBOARD" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="ctypo" value="&lt;link rel=&quot;stylesheet&quot; href=&quot;{{ settings.server_url }}/public/css/trueconf/ui-kit/elements/ui-kit-typography.min.css&quot;&gt;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="cgrid" value="&lt;link rel=&quot;stylesheet&quot; href=&quot;{{ settings.server_url }}/public/css/trueconf/ui-kit/elements/ui-kit-grid.min.css&quot;&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="cbtn" value="&lt;link rel=&quot;stylesheet&quot; href=&quot;{{ settings.server_url }}/public/css/trueconf/ui-kit/elements/ui-kit-buttons.min.css&quot;&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="hbtna" value="&lt;a href=&quot;$CLIPBOARD$&quot; class=&quot;default-button default-button--lg default-button--orange default-button--rounded&quot;&gt;&#10;    &lt;span class=&quot;default-button__text white-text&quot;&gt;$SELECTION$&lt;/span&gt;&#10;&lt;/a&gt;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="CLIPBOARD" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="hbtnb" value="&lt;button onclick=&quot;$CLIPBOARD$&quot; class=&quot;default-button default-button--lg default-button--orange default-button--rounded&quot;&gt;&#10;    &lt;span class=&quot;default-button__text white-text&quot;&gt;$SELECTION$&lt;/span&gt;&#10;&lt;/button&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CLIPBOARD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+      <option name="Vue" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="ln" value="{{ site.link($CLIPBOARD$) }}" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="CLIPBOARD" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="c" value="class=&quot;$END$&quot;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="vng" value="%vendor_name" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JADE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="gto" value="site._(&quot;$CLIPBOARD_TEXT$&quot;)" description="Gittext wrapper short" toReformat="true" toShortenFQNames="true">
+    <variable name="CLIPBOARD_TEXT" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JADE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="gtvo" value="site._(&quot;$CLIPBOARD_TEXT$&quot;)|replace_vars($END$)" description="Gittext wrapper long" toReformat="true" toShortenFQNames="true">
+    <variable name="CLIPBOARD_TEXT" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JADE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="pmt" value="&lt;p class=&quot;primary-medium-text&quot;&gt;$SELECTION$&lt;/p&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JADE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
 </templateSet>

@@ -195,7 +195,7 @@
       <option name="XML" value="false" />
     </context>
   </template>
-  <template name="tj" value="{%- block tail_js -%}&#10;    {{- parent() -}}&#10;    $CLIPBOARD$&#10;{%- endblock tail_js -%}" description="tile js wrapper" toReformat="true" toShortenFQNames="true">
+  <template name="tj" value="{%- block tail_js -%}&#10;    {{- parent() -}}&#10;    $CLIPBOARD$&#10;{%- endblock tail_js -%}" description="twig tail_js block" toReformat="true" toShortenFQNames="true">
     <variable name="CLIPBOARD" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
@@ -326,6 +326,25 @@
       <option name="JADE" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="dl" value="{{ settings.default_language }}" description="Settings default language" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JADE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
       <option name="OTHER" value="true" />
       <option name="REQUEST" value="false" />

@@ -24,8 +24,8 @@
     <mask>*.sitemap</mask>
     <mask>*.php</mask>
     <mask>*.json</mask>
-    <mask>*.css</mask>
     <mask>*.twig</mask>
     <mask>*.ini</mask>
+    <mask>*.css</mask>
   </component>
 </application>

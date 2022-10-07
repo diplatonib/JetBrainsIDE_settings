@@ -2,11 +2,11 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="typescript" type="AUTO_DETECTED" />
+      <mapping pattern="nginx.conf" type="AUTO_DETECTED" />
       <mapping pattern="7606b1623345f7300358823dc29328318519abf668bac617a36dd3bdeb49c5e840c90294d8a67d014270ca96734150b2a208dd67df0f440641caf195a0fa" type="AUTO_DETECTED" />
       <mapping ext="avif" type="Image" />
       <mapping pattern="Readline.js" type="PLAIN_TEXT" />
       <mapping pattern=".gulp-cache" type="PLAIN_TEXT" />
-      <mapping pattern=".env.production" type="PLAIN_TEXT" />
       <mapping pattern=".stylelint-scssrc" type="PLAIN_TEXT" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
       <mapping pattern=".env.staging" type="PLAIN_TEXT" />
@@ -16,10 +16,12 @@
       <mapping pattern=".browserlistrc" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".sassrc" type="PLAIN_TEXT" />
+      <mapping ext="pak" type="PLAIN_TEXT" />
       <mapping ext="1" type="PLAIN_TEXT" />
       <mapping ext="log" type="PLAIN_TEXT" />
       <mapping ext="pot" type="PLAIN_TEXT" />
       <mapping ext="urls" type="PLAIN_TEXT" />
+      <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="mjml" approved="true" type="XML" />

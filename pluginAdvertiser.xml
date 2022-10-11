@@ -88,7 +88,6 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.plugins.ini4idea" />
               <option name="myPluginName" value="Ini" />
-              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -529,7 +528,6 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.plugins.ini4idea" />
               <option name="myPluginName" value="Ini" />
-              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -1365,7 +1363,6 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.twig" />
               <option name="myPluginName" value="Twig" />
-              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -1626,7 +1623,6 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.plugins.ini4idea" />
               <option name="myPluginName" value="Ini" />
-              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>

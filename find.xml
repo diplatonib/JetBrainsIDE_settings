@@ -21,9 +21,9 @@
     <mask>*.php</mask>
     <mask>*.js</mask>
     <mask>*.conf</mask>
-    <mask>*.twig</mask>
     <mask>*.ini</mask>
     <mask>*.css</mask>
     <mask>*.json</mask>
+    <mask>*.twig</mask>
   </component>
 </application>

@@ -23,7 +23,7 @@
     <mask>*.ini</mask>
     <mask>*.css</mask>
     <mask>*.twig</mask>
-    <mask>*.json</mask>
     <mask>*.php</mask>
+    <mask>*.json</mask>
   </component>
 </application>

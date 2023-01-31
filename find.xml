@@ -17,11 +17,11 @@
     <mask>*.ejs</mask>
     <mask>*.sitemap</mask>
     <mask>*.conf</mask>
-    <mask>*.css</mask>
     <mask>*.twig</mask>
     <mask>*.js</mask>
     <mask>*.php</mask>
     <mask>*.json</mask>
     <mask>*.ini</mask>
+    <mask>*.css</mask>
   </component>
 </application>

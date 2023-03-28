@@ -20,7 +20,6 @@
     <mask>*.inc</mask>
     <mask>*.ejs</mask>
     <mask>*.sitemap</mask>
-    <mask>*.conf</mask>
     <mask>*.ini</mask>
     <mask>*.twig</mask>
     <mask>*.js</mask>
@@ -29,5 +28,6 @@
     <mask>*.json</mask>
     <mask>*.php</mask>
     <mask>*.vue</mask>
+    <mask>*.conf</mask>
   </component>
 </application>

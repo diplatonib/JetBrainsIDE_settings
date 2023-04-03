@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="start" type="AUTO_DETECTED" />
+      <mapping pattern="worker-token" type="AUTO_DETECTED" />
       <mapping pattern="vue-cli-common-build-flags" type="AUTO_DETECTED" />
       <mapping pattern="typescript" type="AUTO_DETECTED" />
       <mapping pattern="request" type="AUTO_DETECTED" />

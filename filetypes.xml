@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="start" type="AUTO_DETECTED" />
       <mapping pattern="worker-token" type="AUTO_DETECTED" />
+      <mapping pattern="register-gitlab-runner" type="AUTO_DETECTED" />
       <mapping pattern="start-gitlab-runner" type="AUTO_DETECTED" />
       <mapping pattern="vue-cli-common-build-flags" type="AUTO_DETECTED" />
       <mapping pattern="typescript" type="AUTO_DETECTED" />

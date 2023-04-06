@@ -22,6 +22,7 @@
       <mapping pattern="stylelintrc(copy)" type="PLAIN_TEXT" />
       <mapping pattern=".browserlistrc" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern=".runner_system_id" type="PLAIN_TEXT" />
       <mapping pattern=".sassrc" type="PLAIN_TEXT" />
       <mapping ext="pak" type="PLAIN_TEXT" />
       <mapping ext="toml" type="PLAIN_TEXT" />

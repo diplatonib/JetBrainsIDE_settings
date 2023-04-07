@@ -6,6 +6,10 @@
           <option name="url" value="http://localhost:8080" />
           <option name="userName" value="admin" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.trueconf.com" />
+          <option name="userName" value="platonov" />
+        </UrlAndUserName>
       </list>
     </option>
   </component>

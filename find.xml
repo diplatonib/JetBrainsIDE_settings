@@ -19,12 +19,12 @@
     <mask>*.sitemap</mask>
     <mask>*.scss</mask>
     <mask>*.conf</mask>
-    <mask>*.ini</mask>
     <mask>*.js</mask>
     <mask>*.twig</mask>
     <mask>*.vue</mask>
     <mask>*.php</mask>
     <mask>*.css</mask>
+    <mask>*.ini</mask>
     <mask>*.json</mask>
   </component>
 </application>

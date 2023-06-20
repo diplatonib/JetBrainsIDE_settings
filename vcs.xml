@@ -25,7 +25,7 @@
     </option>
   </component>
   <component name="VcsApplicationSettings">
-    <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/Desktop/patch" />
+    <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/Projects/docker-tco-web/project/resources/packages/tw-ui/doc" />
     <option name="COMMIT_FROM_LOCAL_CHANGES" value="true" />
   </component>
   <component name="VcsEditorTab.Settings">

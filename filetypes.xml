@@ -36,6 +36,7 @@
       <mapping ext="pot" type="PLAIN_TEXT" />
       <mapping ext="urls" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
+      <mapping ext="response" type="PLAIN_TEXT" />
       <mapping pattern="default" type="Shell Script" />
       <mapping pattern="custom" type="Shell Script" />
       <mapping pattern="resource" type="Shell Script" />

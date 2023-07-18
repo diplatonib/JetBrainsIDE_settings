@@ -2,8 +2,8 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="page" type="AUTO_DETECTED" />
-      <mapping pattern="resources" type="AUTO_DETECTED" />
       <mapping pattern="start" type="AUTO_DETECTED" />
+      <mapping pattern="resources" type="AUTO_DETECTED" />
       <mapping pattern="worker-token" type="AUTO_DETECTED" />
       <mapping pattern="library" type="AUTO_DETECTED" />
       <mapping pattern="register-gitlab-runner" type="AUTO_DETECTED" />
@@ -38,8 +38,8 @@
       <mapping ext="eot" type="PLAIN_TEXT" />
       <mapping ext="response" type="PLAIN_TEXT" />
       <mapping pattern="default" type="Shell Script" />
-      <mapping pattern="resource" type="Shell Script" />
       <mapping pattern="custom" type="Shell Script" />
+      <mapping pattern="resource" type="Shell Script" />
       <mapping pattern="usage" type="Shell Script" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />

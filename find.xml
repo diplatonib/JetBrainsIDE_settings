@@ -24,10 +24,10 @@
     <mask>*.conf</mask>
     <mask>*.ini</mask>
     <mask>*.vue</mask>
-    <mask>*.json</mask>
     <mask>*.twig</mask>
     <mask>*.css</mask>
     <mask>*.js</mask>
     <mask>*.php</mask>
+    <mask>*.json</mask>
   </component>
 </application>

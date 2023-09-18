@@ -11,6 +11,7 @@
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="tcs-calc" />
+    <option name="FILE_MASK" value="*.json" />
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.php4</mask>
@@ -29,7 +30,7 @@
     <mask>*.css</mask>
     <mask>*.twig</mask>
     <mask>*.ini</mask>
-    <mask>*.json</mask>
     <mask>*.php</mask>
+    <mask>*.json</mask>
   </component>
 </application>

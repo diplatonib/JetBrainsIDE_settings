@@ -17,6 +17,7 @@
       <mapping ext="avif" type="Image" />
       <mapping pattern="settings.php" type="PHP" />
       <mapping pattern="calculatorWidget.php" type="PHP" />
+      <mapping pattern="use-plain*" type="PLAIN_TEXT" />
       <mapping pattern="Readline.js" type="PLAIN_TEXT" />
       <mapping pattern=".gulp-cache" type="PLAIN_TEXT" />
       <mapping pattern=".stylelint-scssrc" type="PLAIN_TEXT" />

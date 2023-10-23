@@ -10,6 +10,7 @@
       <mapping pattern="start-gitlab-runner" type="AUTO_DETECTED" />
       <mapping pattern="typescript" type="AUTO_DETECTED" />
       <mapping pattern="vue-cli-common-build-flags" type="AUTO_DETECTED" />
+      <mapping pattern="changelog-update" type="AUTO_DETECTED" />
       <mapping pattern="request" type="AUTO_DETECTED" />
       <mapping pattern="widget" type="AUTO_DETECTED" />
       <mapping pattern="nginx.conf" type="AUTO_DETECTED" />

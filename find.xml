@@ -22,10 +22,10 @@
     <mask>*.po</mask>
     <mask>*_RU.po</mask>
     <mask>*.conf</mask>
-    <mask>*.php</mask>
     <mask>*.js</mask>
     <mask>*.twig</mask>
     <mask>*.ini</mask>
     <mask>*.json</mask>
+    <mask>*.php</mask>
   </component>
 </application>

@@ -15,6 +15,7 @@
       <mapping pattern="widget" type="AUTO_DETECTED" />
       <mapping pattern="nginx.conf" type="AUTO_DETECTED" />
       <mapping pattern="7606b1623345f7300358823dc29328318519abf668bac617a36dd3bdeb49c5e840c90294d8a67d014270ca96734150b2a208dd67df0f440641caf195a0fa" type="AUTO_DETECTED" />
+      <removed_mapping ext="ng" type="HTML" />
       <mapping ext="avif" type="Image" />
       <mapping pattern="settings.php" type="PHP" />
       <mapping pattern="calculatorWidget.php" type="PHP" />
@@ -45,6 +46,10 @@
       <mapping pattern="custom" type="Shell Script" />
       <mapping pattern="resource" type="Shell Script" />
       <mapping pattern="usage" type="Shell Script" />
+      <removed_mapping pattern="tsconfig.app.json" type="tsconfig" />
+      <removed_mapping pattern="tsconfig.spec.json" type="tsconfig" />
+      <removed_mapping pattern="tsconfig.e2e.json" type="tsconfig" />
+      <removed_mapping pattern="tsconfig.lib.json" type="tsconfig" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="mjml" approved="true" type="XML" />

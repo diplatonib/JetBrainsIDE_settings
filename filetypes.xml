@@ -1,38 +1,38 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern="page" type="AUTO_DETECTED" />
       <mapping pattern="start" type="AUTO_DETECTED" />
+      <mapping pattern="register-gitlab-runner" type="AUTO_DETECTED" />
+      <mapping pattern="vue-cli-common-build-flags" type="AUTO_DETECTED" />
+      <mapping pattern="typescript" type="AUTO_DETECTED" />
+      <mapping pattern="changelog-update" type="AUTO_DETECTED" />
+      <mapping pattern="widget" type="AUTO_DETECTED" />
+      <mapping pattern="page" type="AUTO_DETECTED" />
       <mapping pattern="resources" type="AUTO_DETECTED" />
       <mapping pattern="worker-token" type="AUTO_DETECTED" />
       <mapping pattern="library" type="AUTO_DETECTED" />
-      <mapping pattern="register-gitlab-runner" type="AUTO_DETECTED" />
       <mapping pattern="start-gitlab-runner" type="AUTO_DETECTED" />
-      <mapping pattern="typescript" type="AUTO_DETECTED" />
-      <mapping pattern="vue-cli-common-build-flags" type="AUTO_DETECTED" />
-      <mapping pattern="changelog-update" type="AUTO_DETECTED" />
       <mapping pattern="request" type="AUTO_DETECTED" />
-      <mapping pattern="widget" type="AUTO_DETECTED" />
       <mapping pattern="nginx.conf" type="AUTO_DETECTED" />
       <mapping pattern="7606b1623345f7300358823dc29328318519abf668bac617a36dd3bdeb49c5e840c90294d8a67d014270ca96734150b2a208dd67df0f440641caf195a0fa" type="AUTO_DETECTED" />
-      <removed_mapping ext="ng" type="HTML" />
+      <mapping ext="ng" type="HTML" />
       <mapping ext="avif" type="Image" />
       <mapping pattern="settings.php" type="PHP" />
       <mapping pattern="calculatorWidget.php" type="PHP" />
       <mapping pattern="use-plain*" type="PLAIN_TEXT" />
-      <mapping pattern="Readline.js" type="PLAIN_TEXT" />
-      <mapping pattern=".gulp-cache" type="PLAIN_TEXT" />
       <mapping pattern=".stylelint-scssrc" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
-      <mapping pattern="Procfile" type="PLAIN_TEXT" />
       <mapping pattern=".dockerenv" type="PLAIN_TEXT" />
-      <mapping pattern=".env.staging" type="PLAIN_TEXT" />
       <mapping pattern=".env.development" type="PLAIN_TEXT" />
       <mapping pattern="stylelintrc(copy)" type="PLAIN_TEXT" />
       <mapping pattern=".browserlistrc" type="PLAIN_TEXT" />
+      <mapping pattern=".sassrc" type="PLAIN_TEXT" />
+      <mapping pattern="Readline.js" type="PLAIN_TEXT" />
+      <mapping pattern=".gulp-cache" type="PLAIN_TEXT" />
+      <mapping pattern="Procfile" type="PLAIN_TEXT" />
+      <mapping pattern=".env.staging" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".runner_system_id" type="PLAIN_TEXT" />
-      <mapping pattern=".sassrc" type="PLAIN_TEXT" />
       <mapping ext="pak" type="PLAIN_TEXT" />
       <mapping ext="toml" type="PLAIN_TEXT" />
       <mapping ext="php" type="PLAIN_TEXT" />
@@ -42,14 +42,14 @@
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
       <mapping ext="response" type="PLAIN_TEXT" />
+      <mapping pattern="resource" type="Shell Script" />
       <mapping pattern="default" type="Shell Script" />
       <mapping pattern="custom" type="Shell Script" />
-      <mapping pattern="resource" type="Shell Script" />
       <mapping pattern="usage" type="Shell Script" />
-      <removed_mapping pattern="tsconfig.app.json" type="tsconfig" />
-      <removed_mapping pattern="tsconfig.spec.json" type="tsconfig" />
-      <removed_mapping pattern="tsconfig.e2e.json" type="tsconfig" />
-      <removed_mapping pattern="tsconfig.lib.json" type="tsconfig" />
+      <mapping pattern="tsconfig.e2e.json" type="tsconfig" />
+      <mapping pattern="tsconfig.spec.json" type="tsconfig" />
+      <mapping pattern="tsconfig.app.json" type="tsconfig" />
+      <mapping pattern="tsconfig.lib.json" type="tsconfig" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="mjml" approved="true" type="XML" />

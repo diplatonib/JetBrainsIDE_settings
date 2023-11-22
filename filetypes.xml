@@ -7,6 +7,7 @@
       <mapping pattern="typescript" type="AUTO_DETECTED" />
       <mapping pattern="changelog-update" type="AUTO_DETECTED" />
       <mapping pattern="widget" type="AUTO_DETECTED" />
+      <mapping pattern="UIComponent" type="AUTO_DETECTED" />
       <mapping pattern="page" type="AUTO_DETECTED" />
       <mapping pattern="resources" type="AUTO_DETECTED" />
       <mapping pattern="worker-token" type="AUTO_DETECTED" />

@@ -2,12 +2,15 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="start" type="AUTO_DETECTED" />
+      <mapping pattern="watch" type="AUTO_DETECTED" />
       <mapping pattern="register-gitlab-runner" type="AUTO_DETECTED" />
       <mapping pattern="vue-cli-common-build-flags" type="AUTO_DETECTED" />
       <mapping pattern="typescript" type="AUTO_DETECTED" />
       <mapping pattern="changelog-update" type="AUTO_DETECTED" />
       <mapping pattern="widget" type="AUTO_DETECTED" />
       <mapping pattern="UIComponent" type="AUTO_DETECTED" />
+      <mapping pattern="deploy" type="AUTO_DETECTED" />
+      <mapping pattern="build" type="AUTO_DETECTED" />
       <mapping pattern="page" type="AUTO_DETECTED" />
       <mapping pattern="resources" type="AUTO_DETECTED" />
       <mapping pattern="worker-token" type="AUTO_DETECTED" />

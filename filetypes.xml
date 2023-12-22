@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="start" type="AUTO_DETECTED" />
+      <mapping pattern="configure" type="AUTO_DETECTED" />
       <mapping pattern="watch" type="AUTO_DETECTED" />
       <mapping pattern="register-gitlab-runner" type="AUTO_DETECTED" />
       <mapping pattern="postinstall" type="AUTO_DETECTED" />

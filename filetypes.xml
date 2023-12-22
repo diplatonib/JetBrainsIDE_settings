@@ -23,6 +23,7 @@
       <mapping pattern="links" type="AUTO_DETECTED" />
       <mapping pattern="request" type="AUTO_DETECTED" />
       <mapping pattern="db-init" type="AUTO_DETECTED" />
+      <mapping pattern="fetch" type="AUTO_DETECTED" />
       <mapping pattern="ddddd" type="AUTO_DETECTED" />
       <mapping pattern="nginx.conf" type="AUTO_DETECTED" />
       <mapping pattern="7606b1623345f7300358823dc29328318519abf668bac617a36dd3bdeb49c5e840c90294d8a67d014270ca96734150b2a208dd67df0f440641caf195a0fa" type="AUTO_DETECTED" />

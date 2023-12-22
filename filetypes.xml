@@ -19,6 +19,7 @@
       <mapping pattern="library" type="AUTO_DETECTED" />
       <mapping pattern="customer-card-summary" type="AUTO_DETECTED" />
       <mapping pattern="start-gitlab-runner" type="AUTO_DETECTED" />
+      <mapping pattern="links" type="AUTO_DETECTED" />
       <mapping pattern="request" type="AUTO_DETECTED" />
       <mapping pattern="ddddd" type="AUTO_DETECTED" />
       <mapping pattern="nginx.conf" type="AUTO_DETECTED" />
